@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Form</title>
+</head>
+<body>
+    <h3><hr color="black"><marquee>Sathwik Softech Vidya-nagar,Hubli</marquee><hr color="black"></h3>
+    <form  id="pdf">
+        <fieldset>
+            <legend>PERSONAL DETAILS-INPUT FORM</legend>
+            <label for="inp1">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input id="inp1"  class="firstname" type="text" required ><br><br>
+            <label for="inp2">Last Name:&nbsp;</label><input id="inp2" class="lastname" type="text" required><br><br>
+            <label for="inp3">Gender:</label><br>
+            <input type="radio" name="gender" value="male" id="inp31">Male<br>`    
+            <input type="radio" name="gender" value="female" id="inp32">Female <br>
+            <input type="radio" name="gender" value="other" id="inp33">Other<br><br>
+            <label for="inp4">Born Date:&nbsp;&nbsp;</label><input id="inp4"  class="bod" type="date" required><br><br>
+            <label for="inp5">Contct no:&nbsp;&nbsp;</label><input id="inp5" class="contact" type="tel" required><br><br>
+            <label for="inp6">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input id="inp6" class="email" type="email" required><br><br>
+            <label>Education:</label><br> 
+            <label><input type="checkbox" name="degree" value="PUC" > PUC (Pre-University Course)</label><br>
+            <label><input type="checkbox" name="degree" value="Diploma" > Diploma </label><br>
+            <label><input type="checkbox" name="degree" value="Bachelor" > Bachelor Degree </label><br>
+            <label><input type="checkbox" name="degree" value="Master" > Master Degree</label><br>
+            <label><input type="checkbox" name="degree" value="PhD" > PhD</label><br>
+            <label>Languges:&nbsp;&nbsp;&nbsp;</label>
+            <select id="language"  >
+                     <option>Html5</option> 
+                    <option>css4</option>
+                    <option>Javascript</option>
+                    <option>php</option>
+                    <option>python</option>
+                    <option>C/C++</option>
+                    <option>Jquerry</option> 
+            </select><br><br>
+            <label>Files attachment:</label><input  id="files" type="file"  multiple require ><br><br>
+            <lable>GitHub a/c:</lable><input id="github" type="url"><br><br>
+            <lable for="inp6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lable><input id="inp6" type="Submit" ><br>
+        </fieldset>
+    </form>
+    <script src="main.js"></script>
+
+</body>
+</html>
